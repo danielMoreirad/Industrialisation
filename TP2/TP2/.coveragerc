@@ -1,5 +1,0 @@
-[run]
-omit =
-    tests/*
-    controller/*
-    setup.py
