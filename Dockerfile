@@ -1,5 +1,9 @@
 FROM python:3.9
 
+RUN useradd -m daniel
+
+USER daniel
+
 WORKDIR /code
 
 COPY ./setup.py /code/setup.py
